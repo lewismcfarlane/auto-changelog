@@ -5,9 +5,11 @@
   "repository": "git@github.com:lewismcfarlane/auto-changelog.git",
   "author": "lewismcfarlane <lewismcf@ymail.com>",
   "license": "MIT",
-
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
-  
 }
