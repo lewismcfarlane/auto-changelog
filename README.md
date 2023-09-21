@@ -1,8 +1,11 @@
 # auto-changelog
 ## Tutorial
 Clone Repo - git clone (SSH link here)
+
 Setup nodejs package .json along with an entry index file
+
 yarn init -y      and add index.js file
+
 Add the following script to package.json
 ```
  "scripts": {
@@ -10,7 +13,9 @@ Add the following script to package.json
   },
   ```
 yarn start will run the index.js
+
 Commit changes with proper convention "fix/feat: message here"
+
 Install and set up the standard-version as a feature commit: ```
 yarn add -D standard-version
 ```
